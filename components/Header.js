@@ -1,8 +1,6 @@
 import { ConnectButton } from "web3uikit"
 
 export default function Header() {
-
-
     return (
         <nav >
             <div style={{
@@ -13,7 +11,7 @@ export default function Header() {
                 justifyContent: 'center',
                 width: '100%'
             }}>
-                <h1  > NextJS Moralis Template </h1>
+                <h1  > Crypto Sport Bets</h1>
                 <ConnectButton /></div>
             <hr></hr>
         </nav>

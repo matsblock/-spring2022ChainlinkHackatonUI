@@ -1,8 +1,17 @@
-const PriceConsumerV3Address = "0xdA4494619e52574244B38ac72C6033c3c4ed158A"
+const DaiAddress = "0xeE609996ac3821499aEED5C57f3F7507D0bdC481"
+const OracleContractAddress = "0x6402B63BC71B8833a8345e410B415DA4C7647Fe7"
+const BetsContractAddress = "0x328f930FA959463D723d06Be5aab69e51CA0c25c"
 
-const PriceConsumerV3Abi = require("./PriceConsumerV3Abi.json")
+const DaiAbi = require("./DaiAbi.json")
+const OracleAbi = require("./enetpulseConsumerLRModified.json")
+const BetsAbi = require("./BetsAbi.json")
+
 
 module.exports = {
-    PriceConsumerV3Abi,
-    PriceConsumerV3Address,
+    OracleContractAddress,
+    DaiAbi,
+    DaiAddress,
+    OracleAbi,
+    BetsContractAddress,
+    BetsAbi
 }
