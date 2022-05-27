@@ -2,18 +2,13 @@ import { ConnectButton } from "web3uikit"
 
 export default function Header() {
     return (
-        <nav >
-            <div style={{
-                alignItems: 'center',
-                color: 'black',
-                display: 'flex',
-                height: '75px',
-                justifyContent: 'center',
-                width: '100%'
-            }}>
-                <h1  > Crypto Sport Bets</h1>
-                <ConnectButton /></div>
-            <hr></hr>
+        <nav className="w-100 backdrop-blur-xl drop-shadow-2xl bg-black/10  font-mono">
+            <div className="flex justify-between  items-center">
+                <h1 className="p-5 font-MEDIUM text-2xl ml-5 text-white	"> CRYPTO SPORT BETS</h1>
+                <div className="mr-10">
+                <ConnectButton/>
+                </div>
+                </div>
         </nav>
     )
 }
