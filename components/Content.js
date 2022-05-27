@@ -278,7 +278,7 @@ export default function Content() {
       </div>
 
       <div
-        className="absolute top-4 right-0 mr-60 text-white bg-transparent rounded-2xl py-2.5 px-8 font-bold -mt-0.5 hover:outline-2 hover:outline-[#1FA37E] hover:drop-shadow-2xl outline-[#24BF93] outline outline-1 hover:bg-white/5	"
+        className="absolute top-5 right-0 mr-28 text-white bg-transparent rounded-2xl py-2 px-8 font-bold -mt-0.5 hover:outline-2 hover:outline-[#1FA37E] hover:drop-shadow-2xl outline-[#24BF93] outline outline-1 hover:bg-white/5	"
         onClick={handleOpenModal}
       >
         My balance
